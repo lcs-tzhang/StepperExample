@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5175FFD62D5CDF6400CCB0D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5175FFD02D5CDF6400CCB0D3 /* Preview Assets.xcassets */; };
+		5175FFD72D5CDF6400CCB0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5175FFD22D5CDF6400CCB0D3 /* Assets.xcassets */; };
+		5175FFD82D5CDF6400CCB0D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5175FFD32D5CDF6400CCB0D3 /* ContentView.swift */; };
+		5175FFD92D5CDF6400CCB0D3 /* StepperExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5175FFD42D5CDF6400CCB0D3 /* StepperExampleApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		5175FFBF2D5CDC2700CCB0D3 /* StepperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5175FFD02D5CDF6400CCB0D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5175FFD22D5CDF6400CCB0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5175FFD32D5CDF6400CCB0D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5175FFD42D5CDF6400CCB0D3 /* StepperExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExampleApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		5175FFC12D5CDC2700CCB0D3 /* StepperExample */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StepperExample;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5175FFBC2D5CDC2700CCB0D3 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		5175FFB62D5CDC2700CCB0D3 = {
 			isa = PBXGroup;
 			children = (
-				5175FFC12D5CDC2700CCB0D3 /* StepperExample */,
+				5175FFD52D5CDF6400CCB0D3 /* StepperExample */,
 				5175FFC02D5CDC2700CCB0D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,25 @@
 				5175FFBF2D5CDC2700CCB0D3 /* StepperExample.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5175FFD12D5CDF6400CCB0D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5175FFD02D5CDF6400CCB0D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5175FFD52D5CDF6400CCB0D3 /* StepperExample */ = {
+			isa = PBXGroup;
+			children = (
+				5175FFD32D5CDF6400CCB0D3 /* ContentView.swift */,
+				5175FFD42D5CDF6400CCB0D3 /* StepperExampleApp.swift */,
+				5175FFD22D5CDF6400CCB0D3 /* Assets.xcassets */,
+				5175FFD12D5CDF6400CCB0D3 /* Preview Content */,
+			);
+			path = StepperExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				5175FFC12D5CDC2700CCB0D3 /* StepperExample */,
 			);
 			name = StepperExample;
 			packageProductDependencies = (
@@ -109,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5175FFD62D5CDF6400CCB0D3 /* Preview Assets.xcassets in Resources */,
+				5175FFD72D5CDF6400CCB0D3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5175FFD82D5CDF6400CCB0D3 /* ContentView.swift in Sources */,
+				5175FFD92D5CDF6400CCB0D3 /* StepperExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

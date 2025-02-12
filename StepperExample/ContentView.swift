@@ -15,7 +15,7 @@ struct ContentView: View {
     
     // MARK: Computed properties
     var squared: Int {
-        return base * base
+        return base >= 0 ? base * base : (base * base)
     }
     var body: some View {
         VStack {
@@ -23,10 +23,17 @@ struct ContentView: View {
             Spacer()
             
             HStack(alignment: .top) {
- 
+                
+                Text("(")
+                    .font(.system(size: 96))
+                
                 Text("\(base)")
                     .font(.system(size: 96))
- 
+                
+                Text(")")
+                    .font(.system(size: 96))
+                
+                
                 Text("2")
                     .font(.system(size: 44))
  
